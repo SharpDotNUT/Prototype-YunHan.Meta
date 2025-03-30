@@ -1,0 +1,5 @@
+/.vscode
+/dist
+/Snap.Metadata-main
+
+node_modules
