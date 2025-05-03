@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "format": "prettier --write .",
+    "dev": "deno --allow-all --watch ./dev-server.ts"
+  },
+  "imports": {
+    "@types/express": "npm:@types/express@^5.0.1",
+    "express": "npm:express@^5.1.0"
+  }
+}

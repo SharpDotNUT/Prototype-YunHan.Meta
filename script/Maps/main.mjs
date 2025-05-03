@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 const __dirname = import.meta.dirname
-import { SupportedLanguages } from '../utils.mjs'
+import { SupportedLanguages } from '../utils.ts'
 
 console.log('Maps - 开始')
 for (const lang of SupportedLanguages) {

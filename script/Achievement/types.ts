@@ -1,29 +1,60 @@
-export interface t_Achievement {
-  id: number
+interface Language {
+  name: string
+  lang: string
+}
+
+interface RawAchievement {
+  Id: string
+  Title: string
+  Description: string
+  Goal: string
+  FinishReward: { Count: number }
+  Progress: number
+  Version: string
+  IsDeleteWatcherAfterFinish: boolean
+}
+
+interface RawAchievementGoal {
+  Id: string
+  Name: string
+  Order: number
+}
+
+interface ProcessedAchievement {
+  id: string
   description: string
   rewards: number
+  progress: number
 }
 
-export interface t_AchievementGroup {
+export interface ProcessedAchievementGroup {
   name: string
   version: string
-  achievements: Array<t_Achievement>
+  achievements: ProcessedAchievement[]
+  showCount: boolean
+  finalProgress: number
 }
 
-export interface t_AchievementGoal {
-  id: number
+interface ProcessedAchievementGoal {
+  id: string
   order: number
   name: string
-  versions: Array<string>
+  versions: Set<string>
   numberOfAchievements: number
   numberOfGroups: number
-  achievementGroups: Array<t_AchievementGroup>
+  achievementGroups: ProcessedAchievementGroup[]
 }
 
-export interface t_AchievementData {
-  numberOfGoals: number
-  numberOfGroups: number
-  numberOfAchievements: number
-  versions: string[]
-  data: Array<t_AchievementGoal>
+interface TextMap {
+  [lang: string]: {
+    [key: string]: string
+  }
+}
+
+export type {
+  RawAchievement,
+  RawAchievementGoal,
+  ProcessedAchievement,
+  ProcessedAchievementGoal,
+  TextMap
 }
