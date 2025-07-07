@@ -3,14 +3,14 @@
     "dictionary/genshin": {
       "id": "dictionary/genshin",
       "ext": "json",
-      "hash": "42f7b8eafbd2bbec15acbb6dec6d9f6e",
-      "updatedAt": 1743844657285
+      "hash": "019dbacf4eecb5d9ef3d68f201c52b91",
+      "updatedAt": 1751899503138
     },
     "achievement/meta": {
       "id": "achievement/meta",
       "ext": "json",
-      "hash": "f0152af26e06663b732d421b001769ff",
-      "updatedAt": 1745115203812
+      "hash": "d14704729828e19d75e2d6f1ae60940d",
+      "updatedAt": 1751899163392
     },
     "achievement/text-map": {
       "id": "achievement/text-map",
@@ -26,8 +26,8 @@
     "gacha/pool/meta": {
       "id": "gacha/pool/meta",
       "ext": "json",
-      "hash": "113f4cefecd1890753efb755834c198e",
-      "updatedAt": 1743949485386
+      "hash": "3291188dfb9d37badcfd3cef7938a9be",
+      "updatedAt": 1751899835813
     },
     "gacha/pool/text-map": {
       "id": "gacha/pool/text-map",
@@ -43,8 +43,8 @@
     "character/meta": {
       "id": "character/meta",
       "ext": "json",
-      "hash": "6a365a58762cedf7aff518e33bfd8e6d",
-      "updatedAt": 1746092369683
+      "hash": "9c6970eb8855276188347b56b7d51e50",
+      "updatedAt": 1751899461433
     },
     "music/meta": {
       "id": "music/meta",
@@ -55,9 +55,10 @@
     "id-text-map": {
       "id": "id-text-map",
       "ext": "json",
-      "hash": "ee10002fac9a7bdea3b6f818af5444bb",
-      "updatedAt": 1745657084259
+      "hash": "544a8a78ce1b51979988091e61820624",
+      "updatedAt": 1751899905347
     }
   },
-  "updatedAt": 1746092368568
+  "updatedAt": 1751899905016,
+  "versionOfGenshin": "5.7"
 }

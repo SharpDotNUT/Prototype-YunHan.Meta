@@ -42,7 +42,7 @@ const TextMap: TextMap = {}
 SupportedLanguages.forEach((lang) => {
   const basePath = path.join(
     dirname,
-    `../../Snap.Metadata-main/Genshin/${lang.name}`
+    `../../Snap.Metadata/Genshin/${lang.name}`
   )
 
   const achievements = readJsonFile<RawAchievement[]>(
@@ -70,7 +70,7 @@ SupportedLanguages.forEach((lang) => {
 
 // 处理中文数据结构
 const processChineseData = () => {
-  const basePath = path.join(dirname, '../../Snap.Metadata-main/Genshin/CHS')
+  const basePath = path.join(dirname, '../../Snap.Metadata/Genshin/CHS')
   const achievements = readJsonFile<RawAchievement[]>(
     path.join(basePath, 'Achievement.json')
   )

@@ -11,7 +11,7 @@ for (const lang of SupportedLanguages.slice(1)) {
     fs.readFileSync(
       path.join(
         dirname,
-        '../../Snap.Metadata-main/Genshin/' + lang.name + '/GachaEvent.json'
+        '../../Snap.Metadata/Genshin/' + lang.name + '/GachaEvent.json'
       ),
       'utf-8'
     )
@@ -47,7 +47,7 @@ for (const lang of SupportedLanguages) {
     fs.readFileSync(
       path.join(
         dirname,
-        '../../Snap.Metadata-main/Genshin/' + lang.name + '/GachaEvent.json'
+        '../../Snap.Metadata/Genshin/' + lang.name + '/GachaEvent.json'
       ),
       'utf-8'
     )

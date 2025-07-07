@@ -2,10 +2,10 @@ import path from 'node:path'
 const dirname = import.meta.dirname as string
 const filename = import.meta.filename as string
 import { SupportedLanguages, addToDist } from '../utils.ts'
-import a from '../../Snap.Metadata-main/Genshin/CHS/Avatar/10000002.json' with { type: 'json' }
+import a from '../../Snap.Metadata/Genshin/CHS/Avatar/10000002.json' with { type: 'json' }
 
 const dir = Deno.readDirSync(
-  path.join(dirname, '../../Snap.Metadata-main/Genshin/CHS/Avatar/')
+  path.join(dirname, '../../Snap.Metadata/Genshin/CHS/Avatar/')
 )
 
 let fileList = []
@@ -22,7 +22,7 @@ for (const lang of SupportedLanguages) {
     const text = Deno.readTextFileSync(
       path.join(
         dirname,
-        '../../Snap.Metadata-main/Genshin/' + lang.name + '/Avatar/',
+        '../../Snap.Metadata/Genshin/' + lang.name + '/Avatar/',
         file
       )
     )

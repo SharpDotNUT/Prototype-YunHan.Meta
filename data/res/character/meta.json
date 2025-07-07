@@ -656,5 +656,47 @@
       16
     ],
     "icon": "UI_AvatarIcon_Mizuki"
+  },
+  "10000110": {
+    "birth": [
+      8,
+      8
+    ],
+    "icon": "UI_AvatarIcon_Iansan"
+  },
+  "10000111": {
+    "birth": [
+      11,
+      15
+    ],
+    "icon": "UI_AvatarIcon_Varesa"
+  },
+  "10000112": {
+    "birth": [
+      6,
+      8
+    ],
+    "icon": "UI_AvatarIcon_Escoffier"
+  },
+  "10000113": {
+    "birth": [
+      3,
+      23
+    ],
+    "icon": "UI_AvatarIcon_Ifa"
+  },
+  "10000114": {
+    "birth": [
+      11,
+      5
+    ],
+    "icon": "UI_AvatarIcon_SkirkNew"
+  },
+  "10000115": {
+    "birth": [
+      5,
+      25
+    ],
+    "icon": "UI_AvatarIcon_Dahlia"
   }
 }

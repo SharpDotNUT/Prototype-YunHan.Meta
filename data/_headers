@@ -1,0 +1,11 @@
+# 全局跨域设置 (适用于所有文件)
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Max-Age: 86400
+
+# 禁用 /main.json 的缓存
+/main.json
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0

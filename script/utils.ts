@@ -26,6 +26,7 @@ export interface StaticResourceMetaRecord {
   variants?: string[]
   hash: string
   updatedAt: number
+  versionOfGenshin: string
 }
 
 export interface StaticResourceMeta {
@@ -37,6 +38,7 @@ const dirname = import.meta.dirname as string
 const Meta = path.join(dirname, '../data/meta.json')
 let MetaData: StaticResourceMeta = JSON.parse(Deno.readTextFileSync(Meta))
 MetaData.updatedAt = Date.now()
+MetaData.versionOfGenshin = '5.7'
 
 Deno.mkdirSync(path.join(dirname, '../data/res'), { recursive: true })
 
