@@ -1,11 +1,5 @@
 {
   "resources": {
-    "dictionary/genshin": {
-      "id": "dictionary/genshin",
-      "ext": "json",
-      "hash": "019dbacf4eecb5d9ef3d68f201c52b91",
-      "updatedAt": 1751899503138
-    },
     "achievement/meta": {
       "id": "achievement/meta",
       "ext": "json",
@@ -22,6 +16,24 @@
       ],
       "hash": "3810597d9d2be169c51ecb293031670e",
       "updatedAt": 1743854776646
+    },
+    "character/meta": {
+      "id": "character/meta",
+      "ext": "json",
+      "hash": "9c6970eb8855276188347b56b7d51e50",
+      "updatedAt": 1751899461433
+    },
+    "dictionary/genshin": {
+      "id": "dictionary/genshin",
+      "ext": "json",
+      "hash": "16563ca95df6fa9df88ff856f4cecd99",
+      "updatedAt": 1752263220088
+    },
+    "dictionary/genshin-tags": {
+      "id": "dictionary/genshin-tags",
+      "ext": "json",
+      "hash": "8b39d6976573814417f97279357d8799",
+      "updatedAt": 1752263220088
     },
     "gacha/pool/meta": {
       "id": "gacha/pool/meta",
@@ -40,25 +52,19 @@
       "hash": "8294fa268785a4e7fa06147d71968af6",
       "updatedAt": 1743949382691
     },
-    "character/meta": {
-      "id": "character/meta",
+    "id-text-map": {
+      "id": "id-text-map",
       "ext": "json",
-      "hash": "9c6970eb8855276188347b56b7d51e50",
-      "updatedAt": 1751899461433
+      "hash": "544a8a78ce1b51979988091e61820624",
+      "updatedAt": 1751899905347
     },
     "music/meta": {
       "id": "music/meta",
       "ext": "json",
       "hash": "b70590f07fe775eb4f596e358a3276b4",
       "updatedAt": 1745646397882
-    },
-    "id-text-map": {
-      "id": "id-text-map",
-      "ext": "json",
-      "hash": "544a8a78ce1b51979988091e61820624",
-      "updatedAt": 1751899905347
     }
   },
-  "updatedAt": 1751899905016,
+  "updatedAt": 1752263219920,
   "versionOfGenshin": "5.7"
 }

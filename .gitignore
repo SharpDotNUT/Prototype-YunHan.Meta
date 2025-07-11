@@ -1,5 +1,4 @@
 /.vscode
-/script/Fonts/
 /Snap.Metadata
-
 node_modules
+**/*.temp.*

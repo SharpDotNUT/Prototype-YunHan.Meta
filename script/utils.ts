@@ -1,6 +1,9 @@
-import { Buffer } from 'node:buffer'
-import path from 'node:path'
+import fs from 'fs/promises'
+import path from 'path'
+const dirname = import.meta.dirname as string
+const filename = import.meta.filename as string
 import crypto from 'node:crypto'
+import { mkdir } from 'node:fs'
 
 export const SupportedLanguages = [
   {
@@ -26,23 +29,22 @@ export interface StaticResourceMetaRecord {
   variants?: string[]
   hash: string
   updatedAt: number
-  versionOfGenshin: string
 }
 
 export interface StaticResourceMeta {
   updatedAt: number
+  versionOfGenshin: string
   resources: Record<string, StaticResourceMetaRecord>
 }
 
-const dirname = import.meta.dirname as string
 const Meta = path.join(dirname, '../data/meta.json')
-let MetaData: StaticResourceMeta = JSON.parse(Deno.readTextFileSync(Meta))
+let MetaData: StaticResourceMeta = JSON.parse(await fs.readFile(Meta, 'utf-8'))
 MetaData.updatedAt = Date.now()
 MetaData.versionOfGenshin = '5.7'
 
-Deno.mkdirSync(path.join(dirname, '../data/res'), { recursive: true })
+await fs.mkdir(path.join(dirname, '../data/res'), { recursive: true })
 
-export function addToDist(
+export async function addToDist(
   id: string,
   ext: string,
   variant: string | undefined,
@@ -69,12 +71,15 @@ export function addToDist(
     }
   }
   MetaData.resources[id]
-  Deno.mkdirSync(path.dirname(resPath), { recursive: true })
+  await fs.mkdir(path.dirname(resPath), { recursive: true })
   if (file instanceof Buffer) {
-    Deno.writeFileSync(resPath, file)
+    await fs.writeFile(resPath, file)
   }
   if (typeof file === 'string') {
-    Deno.writeTextFile(resPath, file)
+    await fs.writeFile(resPath, file, 'utf-8')
   }
-  Deno.writeTextFile(Meta, JSON.stringify(MetaData, null, 2))
+  MetaData.resources = Object.fromEntries(
+    Object.entries(MetaData.resources).sort((a, b) => a[0].localeCompare(b[0]))
+  )
+  await fs.writeFile(Meta, JSON.stringify(MetaData, null, 2), 'utf-8')
 }
