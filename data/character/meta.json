@@ -1,0 +1,723 @@
+{
+  "10000002": {
+    "birth": [
+      9,
+      28
+    ],
+    "icon": "UI_AvatarIcon_Ayaka"
+  },
+  "10000003": {
+    "birth": [
+      3,
+      14
+    ],
+    "icon": "UI_AvatarIcon_Qin"
+  },
+  "10000005": {
+    "birth": [
+      0,
+      0
+    ],
+    "icon": "UI_AvatarIcon_PlayerBoy"
+  },
+  "10000006": {
+    "birth": [
+      6,
+      9
+    ],
+    "icon": "UI_AvatarIcon_Lisa"
+  },
+  "10000007": {
+    "birth": [
+      0,
+      0
+    ],
+    "icon": "UI_AvatarIcon_PlayerGirl"
+  },
+  "10000014": {
+    "birth": [
+      7,
+      5
+    ],
+    "icon": "UI_AvatarIcon_Barbara"
+  },
+  "10000015": {
+    "birth": [
+      11,
+      30
+    ],
+    "icon": "UI_AvatarIcon_Kaeya"
+  },
+  "10000016": {
+    "birth": [
+      4,
+      30
+    ],
+    "icon": "UI_AvatarIcon_Diluc"
+  },
+  "10000020": {
+    "birth": [
+      9,
+      9
+    ],
+    "icon": "UI_AvatarIcon_Razor"
+  },
+  "10000021": {
+    "birth": [
+      8,
+      10
+    ],
+    "icon": "UI_AvatarIcon_Ambor"
+  },
+  "10000022": {
+    "birth": [
+      6,
+      16
+    ],
+    "icon": "UI_AvatarIcon_Venti"
+  },
+  "10000023": {
+    "birth": [
+      11,
+      2
+    ],
+    "icon": "UI_AvatarIcon_Xiangling"
+  },
+  "10000024": {
+    "birth": [
+      2,
+      14
+    ],
+    "icon": "UI_AvatarIcon_Beidou"
+  },
+  "10000025": {
+    "birth": [
+      10,
+      9
+    ],
+    "icon": "UI_AvatarIcon_Xingqiu"
+  },
+  "10000026": {
+    "birth": [
+      4,
+      17
+    ],
+    "icon": "UI_AvatarIcon_Xiao"
+  },
+  "10000027": {
+    "birth": [
+      8,
+      26
+    ],
+    "icon": "UI_AvatarIcon_Ningguang"
+  },
+  "10000029": {
+    "birth": [
+      7,
+      27
+    ],
+    "icon": "UI_AvatarIcon_Klee"
+  },
+  "10000030": {
+    "birth": [
+      12,
+      31
+    ],
+    "icon": "UI_AvatarIcon_Zhongli"
+  },
+  "10000031": {
+    "birth": [
+      5,
+      27
+    ],
+    "icon": "UI_AvatarIcon_Fischl"
+  },
+  "10000032": {
+    "birth": [
+      2,
+      29
+    ],
+    "icon": "UI_AvatarIcon_Bennett"
+  },
+  "10000033": {
+    "birth": [
+      7,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Tartaglia"
+  },
+  "10000034": {
+    "birth": [
+      3,
+      21
+    ],
+    "icon": "UI_AvatarIcon_Noel"
+  },
+  "10000035": {
+    "birth": [
+      3,
+      3
+    ],
+    "icon": "UI_AvatarIcon_Qiqi"
+  },
+  "10000036": {
+    "birth": [
+      9,
+      7
+    ],
+    "icon": "UI_AvatarIcon_Chongyun"
+  },
+  "10000037": {
+    "birth": [
+      12,
+      2
+    ],
+    "icon": "UI_AvatarIcon_Ganyu"
+  },
+  "10000038": {
+    "birth": [
+      9,
+      13
+    ],
+    "icon": "UI_AvatarIcon_Albedo"
+  },
+  "10000039": {
+    "birth": [
+      1,
+      18
+    ],
+    "icon": "UI_AvatarIcon_Diona"
+  },
+  "10000041": {
+    "birth": [
+      8,
+      31
+    ],
+    "icon": "UI_AvatarIcon_Mona"
+  },
+  "10000042": {
+    "birth": [
+      11,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Keqing"
+  },
+  "10000043": {
+    "birth": [
+      11,
+      26
+    ],
+    "icon": "UI_AvatarIcon_Sucrose"
+  },
+  "10000044": {
+    "birth": [
+      10,
+      16
+    ],
+    "icon": "UI_AvatarIcon_Xinyan"
+  },
+  "10000045": {
+    "birth": [
+      1,
+      24
+    ],
+    "icon": "UI_AvatarIcon_Rosaria"
+  },
+  "10000046": {
+    "birth": [
+      7,
+      15
+    ],
+    "icon": "UI_AvatarIcon_Hutao"
+  },
+  "10000047": {
+    "birth": [
+      10,
+      29
+    ],
+    "icon": "UI_AvatarIcon_Kazuha"
+  },
+  "10000048": {
+    "birth": [
+      7,
+      28
+    ],
+    "icon": "UI_AvatarIcon_Feiyan"
+  },
+  "10000049": {
+    "birth": [
+      6,
+      21
+    ],
+    "icon": "UI_AvatarIcon_Yoimiya"
+  },
+  "10000050": {
+    "birth": [
+      1,
+      9
+    ],
+    "icon": "UI_AvatarIcon_Tohma"
+  },
+  "10000051": {
+    "birth": [
+      10,
+      25
+    ],
+    "icon": "UI_AvatarIcon_Eula"
+  },
+  "10000052": {
+    "birth": [
+      6,
+      26
+    ],
+    "icon": "UI_AvatarIcon_Shougun"
+  },
+  "10000053": {
+    "birth": [
+      10,
+      19
+    ],
+    "icon": "UI_AvatarIcon_Sayu"
+  },
+  "10000054": {
+    "birth": [
+      2,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Kokomi"
+  },
+  "10000055": {
+    "birth": [
+      5,
+      18
+    ],
+    "icon": "UI_AvatarIcon_Gorou"
+  },
+  "10000056": {
+    "birth": [
+      7,
+      14
+    ],
+    "icon": "UI_AvatarIcon_Sara"
+  },
+  "10000057": {
+    "birth": [
+      6,
+      1
+    ],
+    "icon": "UI_AvatarIcon_Itto"
+  },
+  "10000058": {
+    "birth": [
+      6,
+      27
+    ],
+    "icon": "UI_AvatarIcon_Yae"
+  },
+  "10000059": {
+    "birth": [
+      7,
+      24
+    ],
+    "icon": "UI_AvatarIcon_Heizo"
+  },
+  "10000060": {
+    "birth": [
+      4,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Yelan"
+  },
+  "10000061": {
+    "birth": [
+      1,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Momoka"
+  },
+  "10000062": {
+    "birth": [
+      4,
+      4
+    ],
+    "icon": "UI_AvatarIcon_Aloy"
+  },
+  "10000063": {
+    "birth": [
+      3,
+      10
+    ],
+    "icon": "UI_AvatarIcon_Shenhe"
+  },
+  "10000064": {
+    "birth": [
+      5,
+      21
+    ],
+    "icon": "UI_AvatarIcon_Yunjin"
+  },
+  "10000065": {
+    "birth": [
+      7,
+      27
+    ],
+    "icon": "UI_AvatarIcon_Shinobu"
+  },
+  "10000066": {
+    "birth": [
+      3,
+      26
+    ],
+    "icon": "UI_AvatarIcon_Ayato"
+  },
+  "10000067": {
+    "birth": [
+      5,
+      8
+    ],
+    "icon": "UI_AvatarIcon_Collei"
+  },
+  "10000068": {
+    "birth": [
+      12,
+      21
+    ],
+    "icon": "UI_AvatarIcon_Dori"
+  },
+  "10000069": {
+    "birth": [
+      12,
+      29
+    ],
+    "icon": "UI_AvatarIcon_Tighnari"
+  },
+  "10000070": {
+    "birth": [
+      12,
+      3
+    ],
+    "icon": "UI_AvatarIcon_Nilou"
+  },
+  "10000071": {
+    "birth": [
+      6,
+      23
+    ],
+    "icon": "UI_AvatarIcon_Cyno"
+  },
+  "10000072": {
+    "birth": [
+      5,
+      3
+    ],
+    "icon": "UI_AvatarIcon_Candace"
+  },
+  "10000073": {
+    "birth": [
+      10,
+      27
+    ],
+    "icon": "UI_AvatarIcon_Nahida"
+  },
+  "10000074": {
+    "birth": [
+      12,
+      19
+    ],
+    "icon": "UI_AvatarIcon_Layla"
+  },
+  "10000075": {
+    "birth": [
+      1,
+      3
+    ],
+    "icon": "UI_AvatarIcon_Wanderer"
+  },
+  "10000076": {
+    "birth": [
+      8,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Faruzan"
+  },
+  "10000077": {
+    "birth": [
+      3,
+      6
+    ],
+    "icon": "UI_AvatarIcon_Yaoyao"
+  },
+  "10000078": {
+    "birth": [
+      2,
+      11
+    ],
+    "icon": "UI_AvatarIcon_Alhatham"
+  },
+  "10000079": {
+    "birth": [
+      4,
+      7
+    ],
+    "icon": "UI_AvatarIcon_Dehya"
+  },
+  "10000080": {
+    "birth": [
+      8,
+      11
+    ],
+    "icon": "UI_AvatarIcon_Mika"
+  },
+  "10000081": {
+    "birth": [
+      7,
+      9
+    ],
+    "icon": "UI_AvatarIcon_Kaveh"
+  },
+  "10000082": {
+    "birth": [
+      4,
+      25
+    ],
+    "icon": "UI_AvatarIcon_Baizhuer"
+  },
+  "10000083": {
+    "birth": [
+      2,
+      2
+    ],
+    "icon": "UI_AvatarIcon_Linette"
+  },
+  "10000084": {
+    "birth": [
+      2,
+      2
+    ],
+    "icon": "UI_AvatarIcon_Liney"
+  },
+  "10000085": {
+    "birth": [
+      9,
+      24
+    ],
+    "icon": "UI_AvatarIcon_Freminet"
+  },
+  "10000086": {
+    "birth": [
+      11,
+      23
+    ],
+    "icon": "UI_AvatarIcon_Wriothesley"
+  },
+  "10000087": {
+    "birth": [
+      12,
+      18
+    ],
+    "icon": "UI_AvatarIcon_Neuvillette"
+  },
+  "10000088": {
+    "birth": [
+      4,
+      10
+    ],
+    "icon": "UI_AvatarIcon_Charlotte"
+  },
+  "10000089": {
+    "birth": [
+      10,
+      13
+    ],
+    "icon": "UI_AvatarIcon_Furina"
+  },
+  "10000090": {
+    "birth": [
+      1,
+      10
+    ],
+    "icon": "UI_AvatarIcon_Chevreuse"
+  },
+  "10000091": {
+    "birth": [
+      8,
+      16
+    ],
+    "icon": "UI_AvatarIcon_Navia"
+  },
+  "10000092": {
+    "birth": [
+      12,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Gaming"
+  },
+  "10000093": {
+    "birth": [
+      4,
+      11
+    ],
+    "icon": "UI_AvatarIcon_Liuyun"
+  },
+  "10000094": {
+    "birth": [
+      8,
+      17
+    ],
+    "icon": "UI_AvatarIcon_Chiori"
+  },
+  "10000095": {
+    "birth": [
+      3,
+      30
+    ],
+    "icon": "UI_AvatarIcon_Sigewinne"
+  },
+  "10000096": {
+    "birth": [
+      8,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Arlecchino"
+  },
+  "10000097": {
+    "birth": [
+      5,
+      31
+    ],
+    "icon": "UI_AvatarIcon_Sethos"
+  },
+  "10000098": {
+    "birth": [
+      9,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Clorinde"
+  },
+  "10000099": {
+    "birth": [
+      9,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Emilie"
+  },
+  "10000100": {
+    "birth": [
+      4,
+      22
+    ],
+    "icon": "UI_AvatarIcon_Kachina"
+  },
+  "10000101": {
+    "birth": [
+      11,
+      11
+    ],
+    "icon": "UI_AvatarIcon_Kinich"
+  },
+  "10000102": {
+    "birth": [
+      8,
+      3
+    ],
+    "icon": "UI_AvatarIcon_Mualani"
+  },
+  "10000103": {
+    "birth": [
+      3,
+      13
+    ],
+    "icon": "UI_AvatarIcon_Xilonen"
+  },
+  "10000104": {
+    "birth": [
+      12,
+      10
+    ],
+    "icon": "UI_AvatarIcon_Chasca"
+  },
+  "10000105": {
+    "birth": [
+      10,
+      14
+    ],
+    "icon": "UI_AvatarIcon_Olorun"
+  },
+  "10000106": {
+    "birth": [
+      8,
+      28
+    ],
+    "icon": "UI_AvatarIcon_Mavuika"
+  },
+  "10000107": {
+    "birth": [
+      1,
+      20
+    ],
+    "icon": "UI_AvatarIcon_Citlali"
+  },
+  "10000108": {
+    "birth": [
+      1,
+      6
+    ],
+    "icon": "UI_AvatarIcon_Lanyan"
+  },
+  "10000109": {
+    "birth": [
+      3,
+      16
+    ],
+    "icon": "UI_AvatarIcon_Mizuki"
+  },
+  "10000110": {
+    "birth": [
+      8,
+      8
+    ],
+    "icon": "UI_AvatarIcon_Iansan"
+  },
+  "10000111": {
+    "birth": [
+      11,
+      15
+    ],
+    "icon": "UI_AvatarIcon_Varesa"
+  },
+  "10000112": {
+    "birth": [
+      6,
+      8
+    ],
+    "icon": "UI_AvatarIcon_Escoffier"
+  },
+  "10000113": {
+    "birth": [
+      3,
+      23
+    ],
+    "icon": "UI_AvatarIcon_Ifa"
+  },
+  "10000114": {
+    "birth": [
+      11,
+      5
+    ],
+    "icon": "UI_AvatarIcon_SkirkNew"
+  },
+  "10000115": {
+    "birth": [
+      5,
+      25
+    ],
+    "icon": "UI_AvatarIcon_Dahlia"
+  },
+  "10000116": {
+    "birth": [
+      4,
+      2
+    ],
+    "icon": "UI_AvatarIcon_Ineffa"
+  }
+}

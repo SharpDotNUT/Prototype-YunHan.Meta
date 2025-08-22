@@ -1,0 +1,5 @@
+/.vscode
+/Snap.Metadata
+/source
+node_modules
+**/*.temp.*

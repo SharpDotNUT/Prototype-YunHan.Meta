@@ -1,0 +1,102 @@
+{
+  "updateAt": 1755344774723,
+  "version": "5.8",
+  "res": {
+    "achievement/meta.json": {
+      "size": 472346,
+      "hash": "c8588ff1e02d386306e521e426121aa0"
+    },
+    "achievement/meta.min.json": {
+      "size": 290278,
+      "hash": "77786a0e8386c81d3bdc3b76f3c6e7f2"
+    },
+    "achievement/text_zh-Hans.json": {
+      "size": 175007,
+      "hash": "daa2cb8af6206e5ad8ec95c2ee45fbb1"
+    },
+    "achievement/text_zh-Hant.json": {
+      "size": 174975,
+      "hash": "7cdde4d3eb569cd472a9e2b7a47c50e4"
+    },
+    "achievement/text_en.json": {
+      "size": 194845,
+      "hash": "427c9e4374cb19cb5ae78feef0b2a519"
+    },
+    "achievement/text_ja.json": {
+      "size": 210679,
+      "hash": "c291070e8543050914b49a6b58b81cf1"
+    },
+    "character/meta.json.json": {
+      "size": 9905,
+      "hash": "ff9607032f2209f91ad0fc32d55d2124"
+    },
+    "id-map/id-map_zh-Hans.json": {
+      "size": 9950,
+      "hash": "d1b40e8c9033d9ab8bd4d0e2979e0a5b"
+    },
+    "id-map/id-map_zh-Hant.json": {
+      "size": 9954,
+      "hash": "19b986e446701939209ce541d85e51f5"
+    },
+    "id-map/id-map_en.json": {
+      "size": 10768,
+      "hash": "745c0a6b704a5e67b52b940a2fd9a373"
+    },
+    "id-map/id-map_ja.json": {
+      "size": 11087,
+      "hash": "040bb8389457ef61fc56942c5cace078"
+    },
+    "gacha/pool.json": {
+      "size": 89577,
+      "hash": "25da459d297dd1315e3c70cc3bbad61e"
+    },
+    "gacha/text_mapzh-Hans.json": {
+      "size": 38680,
+      "hash": "66e4248094276a4c267ebc0e112be80b"
+    },
+    "gacha/text_mapzh-Hant.json": {
+      "size": 39138,
+      "hash": "f34d847f532976f3b4ef751c72dede3e"
+    },
+    "gacha/text_mapen.json": {
+      "size": 40388,
+      "hash": "cccb2a6205c1649a7dbc36e140729629"
+    },
+    "gacha/text_mapja.json": {
+      "size": 39620,
+      "hash": "a034d0c8dc20c4847dfbff2e06e94418"
+    },
+    "gacha/text_map_zh-Hans.json": {
+      "size": 38680,
+      "hash": "66e4248094276a4c267ebc0e112be80b"
+    },
+    "gacha/text_map_zh-Hant.json": {
+      "size": 39138,
+      "hash": "f34d847f532976f3b4ef751c72dede3e"
+    },
+    "gacha/text_map_en.json": {
+      "size": 40388,
+      "hash": "cccb2a6205c1649a7dbc36e140729629"
+    },
+    "gacha/text_map_ja.json": {
+      "size": 39620,
+      "hash": "a034d0c8dc20c4847dfbff2e06e94418"
+    },
+    "gacha/pool.min.json": {
+      "size": 52543,
+      "hash": "d05e340942fad26e1a615948b6be3015"
+    },
+    "dictionary/genshin.json": {
+      "size": 2621167,
+      "hash": "16563ca95df6fa9df88ff856f4cecd99"
+    },
+    "dictionary/genshin.min.json": {
+      "size": 1965827,
+      "hash": "a8cabd13c9ced1b5527bfa3e2402b699"
+    },
+    "dictionary/genshin-tags.json": {
+      "size": 6454,
+      "hash": "8b39d6976573814417f97279357d8799"
+    }
+  }
+}
