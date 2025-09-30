@@ -1,8 +1,8 @@
 
 git clone --depth=1 https://github.com/DGP-Studio/Snap.Metadata.git ./source/Snap.Metadata.temp
 
-Move-Item -Path ./source/Snap.Metadata.temp/Genshin -Destination ./source/Snap.MetaData
-Remove-Item -Path ./source/Snap.Metadata.temp
+Move-Item -Force -Path ./source/Snap.Metadata.temp/Genshin -Destination ./source/Snap.MetaData
+Remove-Item -Recurse -Path ./source/Snap.Metadata.temp
 
 curl.exe https://gitlab.com/Dimbreath/AnimeGameData/-/archive/master/AnimeGameData-master.zip?path=TextMap -o ./source/TextMap.zip
 curl.exe https://gitlab.com/Dimbreath/AnimeGameData/-/archive/master/AnimeGameData-master.zip?path=ExcelBinOutput -o ./source/ExcelBinOutput.zip

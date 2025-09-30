@@ -1,10 +1,12 @@
 import { MultiLanguage, Word } from './types.ts';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const dirname = import.meta.dirname as string;
+const filename = import.meta.filename as string;
 
-const Rename = (
-  await import('./Rename.json', {
-    with: { type: 'json' }
-  })
-).default;
+const Rename = JSON.parse(
+  await fs.readFile(path.join(dirname, 'rename.json'), 'utf-8')
+) as Record<string, string>;
 
 export function convertGIFormat(data: any[]): Word[] {
   return data.map((item) => {
@@ -43,7 +45,14 @@ export function convertGIFormat(data: any[]): Word[] {
         },
         {}
       ),
-      tags: (item.tags || []).map((tag: string) => Rename[tag]) || [],
+      tags:
+        (item.tags || []).map((tag: string) => {
+          if (!Rename[tag]) {
+            console.error(`Tag ${tag} not found in rename.json`);
+            process.exit(1);
+          }
+          return Rename[tag];
+        }) || [],
       updatedAt: item.updatedAt,
       createdAt: item.createdAt
     };

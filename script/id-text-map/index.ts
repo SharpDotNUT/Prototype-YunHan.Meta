@@ -26,7 +26,7 @@ Weapon.forEach((weapon) => {
 await fs.mkdir(path.join(ResDir, 'id-map'), { recursive: true });
 for (const lang of SupportedLanguages) {
   const ids = { ...CharactersIDs, ...WeaponIDs };
-  const map = {};
+  const map = {} as Record<number, string>;
   for (const id in ids) {
     map[id] = await getText(ids[id], lang.name);
   }

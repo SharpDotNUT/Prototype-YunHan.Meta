@@ -47,8 +47,8 @@
       "hash": "040bb8389457ef61fc56942c5cace078"
     },
     "gacha/pool.json": {
-      "size": 89577,
-      "hash": "25da459d297dd1315e3c70cc3bbad61e"
+      "size": 92693,
+      "hash": "cd1a7deb9049b4301b1cc667a52383c8"
     },
     "gacha/text_mapzh-Hans.json": {
       "size": 38680,
@@ -67,36 +67,40 @@
       "hash": "a034d0c8dc20c4847dfbff2e06e94418"
     },
     "gacha/text_map_zh-Hans.json": {
-      "size": 38680,
-      "hash": "66e4248094276a4c267ebc0e112be80b"
+      "size": 39875,
+      "hash": "45530813f451eebaed77754b7e905429"
     },
     "gacha/text_map_zh-Hant.json": {
-      "size": 39138,
-      "hash": "f34d847f532976f3b4ef751c72dede3e"
+      "size": 40333,
+      "hash": "9db10b80cc94790196c2ce353f4a631a"
     },
     "gacha/text_map_en.json": {
-      "size": 40388,
-      "hash": "cccb2a6205c1649a7dbc36e140729629"
+      "size": 41711,
+      "hash": "76373ae7326b880139e0f7f86d726288"
     },
     "gacha/text_map_ja.json": {
-      "size": 39620,
-      "hash": "a034d0c8dc20c4847dfbff2e06e94418"
+      "size": 40849,
+      "hash": "0b069471b8c2b851319168c0d2f4a700"
     },
     "gacha/pool.min.json": {
-      "size": 52543,
-      "hash": "d05e340942fad26e1a615948b6be3015"
+      "size": 54302,
+      "hash": "4d02790d527c72ab7c086f4656bb34ab"
     },
     "dictionary/genshin.json": {
-      "size": 2621167,
-      "hash": "16563ca95df6fa9df88ff856f4cecd99"
+      "size": 2897362,
+      "hash": "c106f9ba74d89ce168479a43d93e5802"
     },
     "dictionary/genshin.min.json": {
-      "size": 1965827,
-      "hash": "a8cabd13c9ced1b5527bfa3e2402b699"
+      "size": 2173365,
+      "hash": "afc13f6fe9d46af905208729c10f628b"
     },
     "dictionary/genshin-tags.json": {
-      "size": 6454,
-      "hash": "8b39d6976573814417f97279357d8799"
+      "size": 6451,
+      "hash": "4b25a975cf3a06fb549b66fcacd179bf"
+    },
+    "character/meta.json": {
+      "size": 9905,
+      "hash": "ff9607032f2209f91ad0fc32d55d2124"
     }
   }
 }

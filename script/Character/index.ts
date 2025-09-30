@@ -27,4 +27,4 @@ Avatar.forEach((avatar) => {
 });
 
 mkdir(join(ResDir, 'character'), { recursive: true });
-await writeRes('character/meta.json', data);
+await writeRes('character/meta', data);

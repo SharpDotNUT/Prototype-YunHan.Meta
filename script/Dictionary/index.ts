@@ -1,8 +1,8 @@
 import fs, { mkdir } from 'node:fs/promises';
 import path, { join } from 'node:path';
 import { convertGIFormat } from './convert.ts';
-const dirname = import.meta.dirname;
-const filename = import.meta.filename;
+const dirname = import.meta.dirname as string;
+const filename = import.meta.filename as string;
 import { ResDir, writeRes } from '../utils.ts';
 
 let data: any = {};

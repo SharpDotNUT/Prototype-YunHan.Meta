@@ -74,7 +74,7 @@ for (const ach of RawAchievement) {
 }
 
 // 处理成就分组
-const achievementGroups: Record<number, AchievementGroup> = {};
+const achievementGroups: Record<string, AchievementGroup> = {};
 const groupsByGoal = new Map<number, AchievementGroup[]>();
 const visited = new Set<number>();
 
@@ -212,7 +212,7 @@ await writeRes(
   true
 );
 SupportedLanguages.map(async (lang) => {
-  const map = {};
+  const map = {} as Record<number, string>;
   for (const hash of textHashes) {
     map[hash] = await getText(hash, lang.name);
   }

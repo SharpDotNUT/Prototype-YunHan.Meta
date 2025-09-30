@@ -31,7 +31,7 @@ interface I_Meta {
 
 export const ResDir = path.join(dirname, '../data');
 await fs.mkdir(ResDir, { recursive: true });
-let meta: I_Meta = { updateAt: Date.now(), version: '5.8', res: {} };
+let meta: I_Meta = { updateAt: Date.now(), version: '6.0.2', res: {} };
 const MetaPath = path.join(dirname, '../data/meta.json');
 try {
   meta = JSON.parse(await fs.readFile(MetaPath, 'utf-8')) as I_Meta;
